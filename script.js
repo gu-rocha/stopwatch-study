@@ -39,7 +39,6 @@ function startTimer () {
   
   if (tens > 9){
     appendTens.innerHTML = tens;
-    
   } 
   
   if (tens > 99) {
@@ -65,5 +64,4 @@ function startTimer () {
   if (minutes > 9) {
     appendMinutes.innerHTML = minutes;
   }
-  
 }
